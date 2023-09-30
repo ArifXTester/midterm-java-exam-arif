@@ -2,84 +2,218 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
+Programming language is a set of codes which contain instructions that allows human beings to communicate with computers
 
 
 
 What jdk contains or composed of and define each components?
 A.
 
-
+1. Java Virtual Machine (JVM): It executes Java bytecode.
+2. Java Runtime Environment (JRE): It's needed to run Java apps.
+3. Java Compiler (javac): It compiles Java source code.
+4. Java API Libraries: These provide core functionality.
+5. Development Tools: Tools for coding and debugging.
+6. Utilities: Tools like keytool, jar, etc.
+7. Sample Code and Demos: Such as example programs.
+8. Documentation: These provide detailed Java language resources.
 
 
 
 What is IDE?
 A.
-
+An IDE in Java is a software tool called an "Integrated Development Environment"
+that helps programmers write, test, and manage Java code more efficiently.
 
 
 What are the IDEs available in the market to support java?
 A.
-
+The most popular IDE tools are Eclipse, IntelliJ, Visual Studio Code, JDeveloper, and NetBeans
 
 
 Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
-Why main is static?
-Which class is the superclass of all classes?
-What is difference between path and classpath variables?
-What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.
+1. Writing Code: Developers write Java code using a text editor or an Integrated Development Environment (IDE).
+2. Saving Code: The Java code is saved with a .java extension.
+3. Compiling: The Java Compiler (javac) is used to compile the .java source code files into bytecode files with a .class extension. This step checks for syntax errors.
+4. Bytecode: The compiled bytecode is platform-independent and can be executed on any system with a Java Virtual Machine (JVM).
+5. Running: The Java Virtual Machine (JVM) executes the bytecode by loading the .class files. It converts bytecode into machine-specific instructions for execution.
+6. Execution: The Java program runs, performing the tasks specified in the code.
+7. Output: If the code includes output statements (e.g., print statements), the program generates output that can be displayed on the screen or saved to files.
+8. Termination: The program completes its execution and terminates.
+
+Throughout this life cycle, developers can edit the Java source code, recompile it,
+and run it again to test and refine their programs.  The compiled bytecode can be executed
+on different systems AS LONG AS a compatible JVM is available.
+
+Q. What is class?
+A. In Java, a "class" is a blueprint or a template for creating objects.
+
+Q. What is object?
+A. In JAVA, 'object' is an instance created from a class. It represents a specific item or concept
+   with characteristics (attributes) and behaviors (methods) defined by the class.
+
+Q. What is the entry point of an application?
+A. The entry point of an application in Java is the main method. This is where the program begins its execution.
+
+Q. Why main is static?
+A.The main method in Java is declared as static because it needs to be accessible without
+  creating an instance of the class.
+
+Q. Which class is the superclass of all classes?
+A.
+
+Q. What is difference between path and classpath variables?
+A.
+
+Q. What is the difference between an Interface and Abstract class?
+A.
+
+Q. Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
-What is Java Package and which package is imported by default?
-What is API? Name list of API that you have used so far.
-Does java support multiple inheritance, explain why or why not?
-What is method overloading and when it happens?
-Explain exceptions in java and how to handle it.
-What is static keyword in java? How it has been used in variables and methods ?
-What is final and how it has been used variables and methods?
-What is final, finally and finalize?
-What is a constructor ?
-Can we have multiple constructors in a class?
-If we don't have a constructor declared, what is called during the object creation?
-What is "this" keyword in java ?
-What is "super" keyword in java? How many possible way can you use?
-What is JVM stand for ?
-Is JVM platform independent?
-What version of java are you using?
-What is JAR stand for ?
-What is the difference between JDK and JVM?
-What is the difference between JVM and JRE?
-What is compile time and run time?
-What is heap?
-How java manage it's memory?
-What is the difference between String, StringBuffer and StringBuilder?
-What is Singleton class?
-What is Serialization and Deserialization?
-when to use transient variable in java?
-Difference between while and do..while loop?
-What is Enum?
-What is Iterator?
-Which one will take more memory, an int or Integer?
-Why is String Immutable in Java?
-What is constructor chaining in Java?
-The difference between Serial and Parallel Garbage Collector?
-What is JIT stands for?
-Explain Java Heap space and Garbage collection?
-Can you guarantee the garbage collection process?
-What is the difference between stack and heap in Java?
-What is reflection in java and why is it useful?
-what is multithreading in java?
-What is the use of synchronization in Java?
-What is Framework?
-What are the testing Framework available in java?
-Difference between jUnit and testNG?
-What are the dependencies for this project?
-what is dependency injection in java?
-What is static binding and dynamic binding?
+A.
+
+Q. What is OOP ? Define each feature of java OOP.
+A.
+
+Q. What is Java Package and which package is imported by default?
+A.
+
+Q. What is API? Name list of API that you have used so far.
+A.
+
+Q. Does java support multiple inheritance, explain why or why not?
+A.
+
+Q. What is method overloading and when it happens?
+A.
+
+Q. Explain exceptions in java and how to handle it.
+A.
+
+Q. What is static keyword in java? How it has been used in variables and methods ?
+A.
+
+Q. What is final and how it has been used variables and methods?
+A.
+
+Q. What is final, finally and finalize?
+A.
+
+Q. What is a constructor?
+A.
+
+Q. Can we have multiple constructors in a class?
+A.
+
+Q. If we don't have a constructor declared, what is called during the object creation?
+A.
+
+Q. What is "this" keyword in java?
+A.
+
+Q. What is "super" keyword in java? How many possible way can you use?
+A.
+
+Q. What is JVM stand for?
+A.
+
+Q. Is JVM platform independent?
+A.
+
+Q. What version of java are you using?
+A.
+
+Q. What is JAR stand for?
+A.
+
+Q. What is the difference between JDK and JVM?
+A.
+
+Q. What is the difference between JVM and JRE?
+A.
+
+Q. What is compile time and run time?
+A.
+
+Q. What is heap?
+A.
+
+Q. How java manage it's memory?
+A.
+
+Q. What is the difference between String, StringBuffer and StringBuilder?
+A.
+
+Q. What is Singleton class?
+A.
+
+Q. What is Serialization and Deserialization?
+A.
+
+Q. When to use transient variable in java?
+A.
+
+Q. Difference between while and do..while loop?
+A.
+
+Q. What is Enum?
+A.
+
+Q. What is Iterator?
+A.
+
+Q. Which one will take more memory, an int or Integer?
+A.
+
+Q. Why is String Immutable in Java?
+A.
+
+Q. What is constructor chaining in Java?
+A.
+
+Q. The difference between Serial and Parallel Garbage Collector?
+A.
+
+Q. What is JIT stands for?
+A.
+
+Q. Explain Java Heap space and Garbage collection?
+A.
+
+Q. Can you guarantee the garbage collection process?
+A.
+
+Q. What is the difference between stack and heap in Java?
+A.
+
+Q. What is reflection in java and why is it useful?
+A.
+
+Q. What is multithreading in java?
+A.
+
+Q. What is the use of synchronization in Java?
+A.
+
+Q. What is Framework?
+A.
+
+Q. What are the testing Framework available in java?
+A.
+
+Q. Difference between jUnit and testNG?
+A.
+
+Q. What are the dependencies for this project?
+A.
+
+Q. What is dependency injection in java?
+A.
+
+Q. What is static binding and dynamic binding?
+A.
+
 
 
 
