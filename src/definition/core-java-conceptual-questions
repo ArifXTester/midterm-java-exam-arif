@@ -4,11 +4,8 @@ What is programing language?
 A.
 Programming language is a set of codes which contain instructions that allows human beings to communicate with computers
 
-
-
 What jdk contains or composed of and define each components?
 A.
-
 1. Java Virtual Machine (JVM): It executes Java bytecode.
 2. Java Runtime Environment (JRE): It's needed to run Java apps.
 3. Java Compiler (javac): It compiles Java source code.
@@ -61,45 +58,64 @@ A.The main method in Java is declared as static because it needs to be accessibl
   creating an instance of the class.
 
 Q. Which class is the superclass of all classes?
-A.
+A. The object class
 
 Q. What is difference between path and classpath variables?
-A.
+A. Path variable is used in reference to OS environment while classpath is specifically used for JAVA environment
+    to locate classes & other resources required by JAVA applications.
 
 Q. What is the difference between an Interface and Abstract class?
-A.
+A. Abstract classes allow constructors & can have concrete methods but interface cannot.
+   Interface supports multiple inheritance.
 
 Q. Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
-A.
+A. No you cannot. You use it by using the word 'implement' such as "class MyClass implements MyInterface"
+Access specifier are keywords that determine the visibility or accessibility of classes, fields, methods, etc.
+such as public, protected, default, & private
 
 Q. What is OOP ? Define each feature of java OOP.
-A.
+A.OOP is object oriented programming. OOP uses objects in JAVA code which instantiates java classes.
+There are four ways by which OOPs are used: Encapsulation, Inheritance, Polymorphism, & Abstraction
+ Encapsulation ensures that only the class itself can access and modify the data.
+ Inheritance allows you to create a new class that is based on an existing class. Parent-child classesw.
+ Polymorphism allows you to write code that can work with different types of objects using the
+ same method or function.
 
 Q. What is Java Package and which package is imported by default?
-A.
+A.  a Java package is like a folder or directory that helps you organize &
+    group related classes and resources together. java.lang is imported by default.
 
 Q. What is API? Name list of API that you have used so far.
-A.
+A. API stands for Application Programming Interface. It's like a menu of functions and features that
+ developers can use to make their programs work with or "talk to" the Java program.
 
 Q. Does java support multiple inheritance, explain why or why not?
-A.
+A. Java does not support multiple inheritance because of multiple parent to child inheritance issue.
+   Instead, JAVA uses interface.
 
 Q. What is method overloading and when it happens?
-A.
+A. Method overloading happens when you have multiple methods in the same class
+   with the same name but different parameters
 
 Q. Explain exceptions in java and how to handle it.
-A.
+A. When something unexpected happens during the execution of a program, it's called an "exception."
+   "exception handling" is what is used to handle exceptions & prevent them from crashing
 
 Q. What is static keyword in java? How it has been used in variables and methods ?
-A.
+A.  the "static" keyword in Java is used to create something that belongs to the class itself,
+ rather than to individual objects. Static variables are shared among all objects of the class, &
+  static methods are called on the class itself, not on specific instances.
 
 Q. What is final and how it has been used variables and methods?
-A.
+A. When "final" keyword is used, it determines the final outcome and cannot be changed when set.
 
 Q. What is final, finally and finalize?
-A.
-
+A. final is a keyword that is used to prevent the variable from changing.
+   finally is used in exception handling to runa block of code no matter what.
+   finalize is a method in Java that's called by the 'garbage collector' just before
+   an object is removed from memory.
+   
 Q. What is a constructor?
 A.
 
