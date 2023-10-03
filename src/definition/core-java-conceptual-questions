@@ -117,118 +117,147 @@ A. final is a keyword that is used to prevent the variable from changing.
    an object is removed from memory.
    
 Q. What is a constructor?
-A.
+A. A constructor in Java is like a setup method that prepares an object with its initial
+   values and characteristics when you create it from a class.
 
 Q. Can we have multiple constructors in a class?
-A.
+A. Yes. It's called "constructor overloading."
 
 Q. If we don't have a constructor declared, what is called during the object creation?
 A.
 
 Q. What is "this" keyword in java?
-A.
+A. "This" keyword is like a little note that a method or constructor can use to refer to itself.
 
 Q. What is "super" keyword in java? How many possible way can you use?
-A.
+A. The "super" keyword in Java is used to refer to the parent or superclass of a class.
+   Two ways: Call Parent class constructors & access overridden methods or variables.
 
 Q. What is JVM stand for?
-A.
+A. Java Virtual Machine
 
 Q. Is JVM platform independent?
-A.
+A. Yes
 
 Q. What version of java are you using?
-A.
+A. java version "11.0.19" 2023-04-18 LTS
 
 Q. What is JAR stand for?
-A.
+A. Java Archive.
 
 Q. What is the difference between JDK and JVM?
-A.
+A. JVM is a virtual computer that executes Java programs while JDK provides developers
+   with the tools and resources to write and compile that Java code before it's run by the JVM.
 
 Q. What is the difference between JVM and JRE?
-A.
+A. You need JRE to run Java programs, and inside JRE, there's JVM that actually
+   does the work of executing the programs.
 
 Q. What is compile time and run time?
-A.
+A. They are both phases in the life cycle of the computer program. Compile time is when your code is
+  translated into a format that the computer can understand without actually running it,
+  while run time is when the computer executes the compiled code to perform the desired tasks.
 
 Q. What is heap?
 A.
 
 Q. How java manage it's memory?
-A.
+A. Java manages its memory by automatically allocating space, cleaning up what's not being used.
 
 Q. What is the difference between String, StringBuffer and StringBuilder?
-A.
+A. The main difference is how they handle strings & their performance characteristics
 
 Q. What is Singleton class?
-A.
+A. Singleton class is like having only one instance of a particular class throughout the entire program.
 
 Q. What is Serialization and Deserialization?
-A.
+A. Serialization and Deserialization are processes used to convert complex data structures
+  or objects into a format that can be easily stored, transmitted, or reconstructed later.
 
 Q. When to use transient variable in java?
-A.
+A. Serialization and Deserialization are processes used to convert complex data structures
+  or objects into a format that can be easily stored, transmitted, or reconstructed later.
 
 Q. Difference between while and do..while loop?
-A.
+A. In while loop, the condition is checked at the beginning,
+   and in do.while loop the condition is checked at the end.
 
 Q. What is Enum?
-A.
+A. Enum is used to define a fixed number of named values that can't be changed once they are defined.
 
 Q. What is Iterator?
-A.
+A. Iterators provide a way to access JAVA elements without exposing the underlying structure of the collection,
+ making the code more flexible & maintainable.
 
 Q. Which one will take more memory, an int or Integer?
-A.
+A. Using int would be more memory efficient.
 
 Q. Why is String Immutable in Java?
 A.
+In simple terms, a String is immutable in Java because once you create a String object,
+  you cannot change its content.
 
 Q. What is constructor chaining in Java?
-A.
+A. Constructor chaining refers to the process of one constructor calling another constructor within the same class
 
 Q. The difference between Serial and Parallel Garbage Collector?
-A.
+A. Serial Garbage Collector operates sequentially to clean up memory in a computer program
+    while Parallel Garbage Collector utilizes multiple threads. This also consumes more CPU resource.
 
 Q. What is JIT stands for?
-A.
+A. JIT is part of the Java Virtual Machine (JVM) that compiles Java bytecode into native machine code
+   right before it's executed.
 
 Q. Explain Java Heap space and Garbage collection?
-A.
+A.  Java Heap Space is where Java programs store and manage their data, and Garbage Collection is
+    the automatic process of cleaning up this space by removing unused objects to prevent memory issues
+    and keep the program running smoothly.
 
 Q. Can you guarantee the garbage collection process?
-A.
+A.  No because it operates based on certain algorithms and heuristics so you cannot control precisely
+    when it will occur or which objects will be collected.
 
 Q. What is the difference between stack and heap in Java?
-A.
+A. Stack is used for managing method calls and local variables, while the heap is a dynamic storage area
+   for objects and data that can live beyond the scope of individual methods.
 
 Q. What is reflection in java and why is it useful?
-A.
+A. Reflection allows you to examine and manipulate the structure and behavior of Java classes, methods,
+ fields, and objects at runtime. It allows for inspection of classes, creating instances of classes, and change value
+ of fields, as well as invoke method on objects.
 
 Q. What is multithreading in java?
-A.
+A. Multithreading allows JAVA to perform different tasks simultaneously utilizing the thread class. It boosts
+    efficiency and responsiveness.
 
 Q. What is the use of synchronization in Java?
-A.
+A. controls the flow of multiple threads in a program. It ensures that only one thread can access a
+    particular section of code or data at a time, preventing conflicts and ensuring data integrity.
+    It's used when invoking the "synchronized" keyword.
 
 Q. What is Framework?
-A.
+A. Framework is a set of tools that helps you build Java applications more efficiently.
 
 Q. What are the testing Framework available in java?
-A.
+A. They are JUnit, TestNG, Cucumber, and Selenium
 
 Q. Difference between jUnit and testNG?
-A.
+A.  JUnit is good for unit testing.
+    TestNG is more robust and offers more advanced features like parallel execution, flexible test suite
+     configuration, & richer annotations.
 
 Q. What are the dependencies for this project?
-A.
+A. JAVA Standard Library, JUnit, JDBC.
 
 Q. What is dependency injection in java?
-A.
+A. Dependency injection is like giving an object the things it needs to work, instead of letting it create
+    those things itself.
 
 Q. What is static binding and dynamic binding?
-A.
+A.  They are different ways of connecting a function (method) call to the actual code that should be executed
+    when the function is invoked. Static binding is determined at compile time based on the reference type,
+    while dynamic binding is resolved at runtime based on the actual object's type.
+
 
 
 
