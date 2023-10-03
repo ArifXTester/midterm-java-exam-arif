@@ -38,7 +38,7 @@ public class LowestNumber {
 		System.out.println("The values retrieved from the database are: " + retrievedNumberList);
 	}
 
-	private static int findLowestNumber(int[] array) {
+	static int findLowestNumber(int[] array) {
 		int lowestNumber = array[0]; // Initialize with the first element
 
 		for (int i = 1; i < array.length; i++) {
